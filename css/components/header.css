@@ -1,0 +1,121 @@
+.header--home {
+    height: 703px;
+    background-image: url("../../images/home_main_picture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.header{
+    height: 490px;
+    background-image: url("../../images/page_About/header/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav__link--header {
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-blue);
+    transition: color 0.3s linear;
+    
+}
+.nav__link {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--dark-blue);
+    transition: color 0.3s linear;
+}
+
+.nav__link:hover {
+    color: var(--light-blue);
+}
+.nav__link--header:hover {
+    color: var(--light-blue);
+    border-bottom: 2px solid var(--light-blue) ;
+}
+
+.header__nav-menu {
+    padding: 29px 70px 28px 8px;
+    background: #fff;
+}
+
+.header__logo {
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin-left: 82px;
+    font-size: 66px;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.header__logo:hover {
+    color: var(--light-blue);
+}
+
+.header__slogan {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+}
+
+.header__sub-slogan {
+    color: var(--brown);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.header__services {
+    display: inline-block;
+    margin-top: 75px;
+    padding: 53px 93px 48px 82px;
+    background: #fff;
+}
+
+.header__button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 22px 40px 23px 40px;
+    cursor: pointer;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    transition: transform 0.3s linear;
+}
+.header__button:hover{
+transform: scale(1.1);
+
+}
+
+.header__input{
+    margin-left: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid var(--light-blue);
+    width: 319.5px;
+    outline:none;
+}
+
+
+
+

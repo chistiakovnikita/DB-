@@ -1,0 +1,512 @@
+.section__left-box {
+    position: relative;
+
+}
+
+.left-box__image {
+    margin: 10px;
+    transition: transform 0.3s linear;
+}
+
+.left-box__image:hover {
+    box-shadow: 0px 0px 5px 0px var(--light-blue);
+    transform: scale(1.15);
+    z-index: 1;
+
+
+}
+
+.left-box__image-circle {
+    position: absolute;
+    top: 113px;
+    left: 218px;
+}
+
+.left-box__text {
+    position: absolute;
+    top: 252px;
+    left: 284px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--blue);
+}
+
+#ok {
+    position: absolute;
+    top: 171px;
+    left: 299px;
+
+}
+
+
+.section__title {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--blue);
+    line-height: 40.8px;
+    transition: color 0.3s linear;
+    cursor: pointer;
+}
+
+.section__title:hover {
+    color: var(--light-blue);
+}
+
+.section__content-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--brown);
+    line-height: 28.8px;
+}
+
+.right-box__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--brown);
+    line-height: 28.8px;
+
+}
+
+.content__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--blue);
+    line-height: 34px;
+    cursor: pointer;
+    transition: color 0.3s linear;
+}
+
+.content__subtitle:hover {
+    color: var(--light-blue);
+}
+
+.button-link {
+    padding: 22px 40px 23px 41px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    transition: color 0.3s linear;
+}
+
+.button-link:hover {
+    color: var(--light-blue);
+}
+
+
+.right-box__item1 {
+    margin-top: 16px;
+}
+
+.right-box__item2 {
+    margin-top: 16px;
+}
+
+.right-box__item3 {
+    margin-top: 16px;
+}
+
+.right-box__item4 {
+    margin-top: 25px;
+
+}
+
+.right-box__item5 {
+    margin-top: 82px;
+}
+
+.section__block {
+    width: 310px;
+    height: 240px;
+    transform: scale(1);
+    transition: transform 0.5s linear;
+
+
+}
+
+.section__block:hover {
+    background: url(../../../images/our\ services/ourservices.jpg);
+    transform: scale(1.2);
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    fill: #434343;
+}
+
+.content__subtitle--brown {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--brown);
+    line-height: 34px;
+}
+
+.section__block-item1 {
+    padding: 27px 0 0 47px;
+}
+
+.section__block-item2 {
+    padding: 23px 0 0 40px;
+}
+
+.section__block-item3 {
+    padding: 16px 0 0 40px;
+}
+
+.section__block:hover .icon {
+    fill: #fff;
+}
+
+.section__block:hover .content__subtitle--brown {
+    color: #fff;
+}
+
+.section__block:hover .section__content-text {
+    color: #fff;
+}
+
+
+
+/*our benefits*/
+
+
+
+.wrapper-our-benefits {
+    margin-bottom: 290px;
+}
+
+.section__box1 {
+    position: absolute;
+    top: -245px;
+    left: 0px;
+    text-align: center;
+    width: 420px;
+    height: 313px;
+    background: url(../../../images/Our\ benefits/picture_ourbenefits.jpg);
+    background-repeat: no-repeat;
+    transition: box-shadow 0.3s linear;
+    transition: transform 0.3s linear;
+}
+
+.section__box1:hover {
+    box-shadow: 0px 0px 50px 1px var(--light-blue);
+    transform: scale(1.03);
+}
+
+.section__box2 {
+    position: absolute;
+    top: -245px;
+    left: 440px;
+    text-align: center;
+    width: 420px;
+    height: 313px;
+    background: url(../../../images/Our\ benefits/picture_ourbenefits2.jpg);
+    background-repeat: no-repeat;
+    transition: box-shadow 0.3s linear;
+    transition: transform 0.3s linear;
+}
+
+.section__box2:hover {
+    box-shadow: 0px 0px 50px 1px var(--light-blue);
+    transform: scale(1.03);
+}
+
+
+
+.section__box3 {
+    position: absolute;
+    top: -245px;
+    right: 0px;
+    text-align: center;
+    width: 420px;
+    height: 313px;
+    background: url(../../../images/Our\ benefits/picture_ourbenefits3.jpg);
+    background-repeat: no-repeat;
+    transition: box-shadow 0.3s linear;
+    transition: transform 0.3s linear;
+}
+
+.section__box3:hover {
+    box-shadow: 0px 0px 50px 1px var(--light-blue);
+    transform: scale(1.03);
+}
+
+.circle-ourbenefits {
+    margin-top: 54px;
+}
+
+.content__subtitle--white {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.item1 {
+    margin-top: 34px;
+}
+
+.item2 {
+    margin-top: 16px;
+}
+
+.section__content-text--white {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #fff;
+}
+
+/*our works*/
+
+.section__our-works {
+    height: 1414px;
+    background: url(../../../images/our\ works/bg.jpg);
+    background-size: cover;
+
+}
+
+.wrapper__our-works {
+    padding-top: 150px;
+}
+
+.section__title--white {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40.8px;
+    transition: color 0.3s linear;
+    cursor: pointer;
+}
+
+.section__title--white:hover {
+    color: var(--light-blue);
+}
+
+.content__our-works {
+    width: 1300px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    margin-bottom: 54px;
+
+}
+
+.content__our-works-picture {
+    padding: 10px;
+    transition: 0.3s linear;
+
+
+}
+
+.content__our-works-picture:hover {
+    box-shadow: 0px 0px 15px 6px var(--light-blue);
+    transform: scale(1.15);
+
+
+
+}
+
+
+.section__form {
+    text-align: right;
+    margin-bottom: 110px;
+}
+
+.section__input {
+    margin-left: 200px;
+    margin-right: 39.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--light-blue);
+    width: 714.5px;
+    outline: none;
+    background: transparent;
+}
+
+
+.section__button {
+    padding: 22px 40px 23px 41px;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    border: none;
+    transition: transform 0.3s linear;
+    color: #fff;
+}
+
+.section__button:hover {
+    transform: scale(1.1);
+}
+
+
+.button-link--reviews {
+    display: inline-block;
+    margin-top: 54px;
+    padding: 22px 40px 23px 41px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    transition: color 0.3s linear;
+}
+
+.button-link--reviews:hover {
+    color: var(--light-blue);
+}
+
+
+.container__reviews {
+
+
+    padding: 29px 0px 50px 33px;
+
+    width: 300px;
+    height: 320px;
+    background: #fff;
+}
+
+
+.reviews-image {
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+    background: #fff;
+}
+
+.section__container-reviews {
+    position: absolute;
+    top: -213px;
+    right: 5px;
+    padding: 59px 24px 29px 50px;
+    width: 416px;
+    height: 266px;
+    background: var(--blue);
+
+}
+
+
+.section__content-text--italic {
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #fff;
+}
+
+.text-name {
+    padding: 16px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #fff;
+
+}
+
+
+.image-roberto {
+    position: absolute;
+    top: -250px;
+    right: 360px;
+}
+
+
+.section__nav {
+    margin-top: 185px;
+    align-content: center;
+}
+
+.nav__image {
+    transform: scale(1);
+    transition: transform 0.3s linear;
+}
+
+.nav__image:hover {
+    transform: scale(1.1);
+}
+
+.section__video {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.section__video-post {
+    position: absolute;
+    text-align: left;
+    bottom: -20px;
+    right: 110px;
+    width: 416px;
+    height: 129px;
+    padding: 32px 67px 39px 53px;
+    background: var(--blue);
+
+}
+
+.section__video-post--active {
+    display: none;
+}
+
+.section__our-news {
+    margin-top: 100px;
+    height: 428px;
+    background: url(../../../images/our\ news/BG.jpg);
+
+}
+
+
+.section__slogan {
+    padding-top: 55px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 78px;
+    color: #FFFFFF;
+
+}
+
+.section__slogan-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #FFFFFF;
+    padding: 16px 0 32px 0;
+}
+
+.form__input {
+
+    outline: none;
+    width: 640px;
+    height: 62px;
+}
+
+.form__input::placeholder {
+
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.form__button {
+    margin: 0;
+    width: 138px;
+    height: 62px;
+    padding: 17px 40px 18px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    transition: transform 0.3s linear;
+}
+
+.form__button:hover {
+    transform: scale(1.1);
+}

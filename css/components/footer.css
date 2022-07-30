@@ -1,0 +1,95 @@
+.footer {
+display: grid;
+grid-template-rows: 380px 89px;
+background-color: var(--dark-blue);
+    margin-top: 100px;
+    height: 469px;
+
+    
+}
+
+.footer__nav {
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.footer__nav-logo {
+    padding-top: 60px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 77px;
+    color: #FFFFFF;
+    transition: color 0.3s linear;
+}
+
+.footer__nav-logo:hover{
+    color: var(--light-blue);
+
+}
+
+
+address {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 0 54px 0;
+}
+
+.nav__button-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27.2px;
+    padding: 22px 40px 23px 41px;
+    background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+    transition: color 0.3s linear;
+}
+.nav__button-link:hover{
+    color: var(--light-blue);
+}
+
+.nav__menu-title {
+    padding: 78px 0 32px 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 24px;
+    transition: color 0.3s linear;
+
+}
+
+.nav__menu-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: color 0.3s linear;
+    padding-top: 16px;
+}
+
+
+.nav__menu-title:hover{
+    color: var(--light-blue);
+}
+.nav__menu-item:hover{
+    color: var(--light-blue);
+}
+
+.footer__copyright{
+    background: #fff;
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Poppins';
+
+font-weight: 400;
+font-size: 16px;
+line-height: 27.2px;
+color: var(--brown);
+}

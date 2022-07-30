@@ -1,0 +1,57 @@
+
+
+
+
+.flex-container{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+
+.space-between{
+    justify-content: space-between;
+}
+
+.section__container{
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+
+.section__wrapper{
+    margin-top: 100px;
+}
+
+
+.section__content{
+    margin-top: 32px;
+}
+
+
+.section__wrapper-name {
+   
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-sub-title{
+    margin-top: 16px;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
