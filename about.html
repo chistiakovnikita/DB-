@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,229 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>DB-</title>
 </head>
+
 <body>
     <header class="header">
         <nav class="header__nav">
             <div>
-                <a class="header__logo" href="">DB-</a>
+                <a href="/index.html">
+                    <h1 class="header__logo">DB-</h1>
+                </a>
             </div>
             <div class="header__nav-menu">
                 <div>
-                    <a class="nav__link--header" href="">Home</a>
-                    <a class="nav__link--header" href="">About</a>
-                    <a class="nav__link--header" href="">Services</a>
-                    <a class="nav__link--header" href="">Gallery</a>
-                    <a class="nav__link--header" href="">Contact</a>
-                    <a class="nav__link--header" href="">Story</a>
-                    <a class="nav__link--header" href="">Careers</a>
-                    <a class="nav__link--header" href="">News</a>
+                    <a class="nav__link--header" href="/index.html">Home</a>
+                    <a class="nav__link--header-active" href="/about.html">About</a>
+                    <a class="nav__link--header" href="/services.html">Services</a>
+                    <a class="nav__link--header" href="/gallery.html">Gallery</a>
+                    <a class="nav__link--header" href="/Contact.html">Contact</a>
+                    <a class="nav__link--header" href="/Story.html">Story</a>
+                    <a class="nav__link--header" href="Careers.html">Careers</a>
+                    <a class="nav__link--header" href="/News.html">News</a>
                 </div>
             </div>
         </nav>
-
-        <div class="header__services">
-            <h2 class="header__slogan">
-                We build your dream house <br> well and professionally
+        <div class="header__wrapper">
+            <h2 class="title">
+                About our story - We are <br> the best team
             </h2>
-            <p class="header__sub-slogan">
-                Our team can build a house according to your wishes. <br> Any design and concept, we will help make it
-                happen
-            </p>
-            <form>
-                <button class="header__button" type="submit">Contact us</button>
-                <input class="header__input" type="text">
-            </form>
+        </div>
+    </header>
+
+<main>
+    <section>
+        <div class="section__container flex-container space-between">
+            <div class="wrapper">
+                <img src="/images/page_About/section/about_1.jpg" alt="picture">
+                <div class="section__image--about">
+                    <img src="/images/page_About/section/about_2.jpg" alt="picture">
+                </div>
+
+            </div>
+
+            <div>
+                <h4 class="title-middle ">
+                    Here were the story begins
+                </h4>
+
+                <p class="text-small wrapper-indent-small">
+                    Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
+                    industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of
+                    <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
+                    centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
+                </p>
+
+                <p class="text-small wrapper-indent-middle">
+                    Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
+                    industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of
+                    <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
+                    centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
+                </p>
+            </div>
         </div>
 
-    </header>
+        <div class="section__secondary-post">
+            <div class="section__container  flex-container space-between">
+                <div class="section-secondary-post__left-block">
+                    <h4 class="title-middle--white inline-block wrapper-indent-grand">
+                        We love to make perfect
+                    </h4>
+                    <h4 class="title-grand inline-block wrapper-indent-grand">
+                        home
+                    </h4>
+                    <p class="text-small--white wrapper-indent-small">
+                        Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
+                        industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of
+                        <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
+                        centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+                <img class="section-secondary-post__image" src="/images/page_About/section/about_3.jpg" alt="picture">
+            </div>
+            
+        </div>
+
+    </section>
+    <script src="/js/background.js"></script>
+</main>
+<footer class="footer">
+    <nav class="footer__nav flex-container space-between">
+        <div>
+            <a href="#">
+                <h1 class="footer__logo">DB-</h1>
+            </a>
+
+
+            <address>
+                Lizenzo street number 12 Jakarta, <br> Indonesia
+            </address>
+
+            <a class="button-link" href="#">See more</a>
+        </div>
+        <div class="nav__menu-block">
+            <ul>
+                <a href="#">
+                    <li class="nav__menu-title nav__menu-link">
+                        Menu
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Home
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        About
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Gallery
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Service
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav__menu-block">
+            <ul>
+                <a href="#">
+                    <li class="nav__menu-title nav__menu-link">
+                        Contact
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        E-mail
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Mobile
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Whatsapp
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Fax
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav__menu-block">
+            <ul>
+                <a href="#">
+                    <li class="nav__menu-title nav__menu-link">
+                        Career
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Job
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Part-time
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Internship
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Service
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav__menu-block">
+            <ul>
+                <a href="#">
+                    <li class="nav__menu-title nav__menu-link">
+                        Business
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Affiliate
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Collaboration
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        Investment
+                    </li>
+                </a>
+                <a class="nav__menu-link" href="#">
+                    <li class="nav__menu-item">
+                        People
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="footer__copyright">
+        <time datetime="2021">2021-Copyright ZHB Studio</time>
+
+    </div>
+</footer>
+
 </body>
+
 </html>

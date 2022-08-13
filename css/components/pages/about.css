@@ -1,0 +1,22 @@
+.section__image--about {
+    position: absolute;
+    top: 309px;
+    left: 207px;
+}
+
+
+
+.section__secondary-post{
+    height: 428px;
+    margin-top: 125px;
+    background:url(../../../images/page_About/section/section_bg.jpg);
+}
+
+
+.section-secondary-post__image{
+    padding: 20px 0 20px 0;
+}
+
+.section-secondary-post__left-block{
+    margin-left: 20px;
+}

@@ -8,6 +8,23 @@
 @import url(../css/components/footer.css);
 @import url(../css/components/pages/);
 @import url(../js/index.js);
+@import url(../css/components/pages/about.css);
+
+@import url(../css/components/pages/services.css);
+@import url(../js/services.js);
+@import url(../css/components/pages/gallery.css);
+@import url(../css/components/pages/Contact.css);
+@import url(../css/components/pages/Story.css);
+@import url(../js/story-slider1.js);
+@import url(../js/story-slider-2.js);
+@import url(../js/story-content.js);
+@import url(../css/components/pages/Careers.css);
+@import url(../css/components/pages/News.css);
+@import url(../js/background.js);
+
+
+
+
 
 
 

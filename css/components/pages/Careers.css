@@ -1,0 +1,29 @@
+.section-careers__block{
+    width: 420px;
+    height: 300px;
+  
+    box-shadow: 0px 8px 30px 0px rgba(2, 57, 87, 0.15);
+    
+}
+
+.section-careers__wrapper{
+    margin-left: 30px;
+}
+
+
+.icon-careers{
+    width: 13.33px;
+    height: 13.33px;
+}
+
+
+.text-indent{
+    padding-left:9px;
+display: inline-block;
+}
+
+.text-indent-small{
+    padding-top: 6px;
+}
+
+

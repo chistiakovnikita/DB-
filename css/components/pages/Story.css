@@ -1,0 +1,75 @@
+.swiper {
+    width: 1300px;
+    height: 373px;
+    cursor: pointer;
+}
+
+.swiper-2{
+   width: 1300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+.section__secondary-block{
+    background: url(../../../images/Story/BG.jpg);
+    height: 428px;
+}
+
+.secondary-block__client{
+    padding-top: 64px;
+    justify-content: space-evenly;
+}
+
+.secondary-block__right-box{
+    margin-top: 40px;
+}
+
+.slide-action{
+    transform: scale(1);
+    transition: transform 0.5s linear;
+}
+
+.slide-action:hover{
+    background: url(../../../images/Story/Rectangle\ 24.jpg);
+    transform: scale(1.05);
+}
+
+.swiper-slide__wrapper{
+    padding: 19px 0 0 22px;
+}
+
+
+.swiper-slide__wrapper:hover .text-small--italic{
+    color: var(--white);
+    
+}
+.swiper-slide__wrapper:hover .text-grand--italic{
+    color: var(--white);
+}
+
+
+
+.section__MrJames{
+    display: none;
+}
+.section__MrAhmed{
+    display: none;
+}
+.section__MrMarco{
+    display: none;
+}
+.section__MrJames--active{
+    display: block;
+}
+.section__MrAhmed--active{
+    display: block;
+}
+.section__MrMarco--active{
+    display: block;
+}
+
+.section__your-story--active{
+display: none;
+}
+
