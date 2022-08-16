@@ -7,8 +7,10 @@
 }
 
 .footer__nav {
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     margin: 0 auto;
+  
 }
 
 .footer__logo {
@@ -74,4 +76,10 @@ address {
     font-size: 16px;
     line-height: 27.2px;
     color: var(--grey);
+}
+
+@media screen and (max-width: 768px) {
+    .footer__nav{
+        max-width: 735px;
+    }
 }

@@ -13,6 +13,10 @@
     flex-direction: column;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -26,7 +30,8 @@
 }
 
 .section__container{
-    width: 1300px;
+    width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     
 }
@@ -167,7 +172,7 @@ color: var(--white);
     line-height: 28.8px;
 }
 
-.text-middle{
+.text-middle--white{
     font-weight: 500;
     font-size: 16px;
     color: var(--white);
