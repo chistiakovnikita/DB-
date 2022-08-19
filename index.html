@@ -13,6 +13,14 @@
 
     <header class="header--home">
         <nav class="header__nav">
+
+            <batton class="header__hamburger" type="button">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" width="40" height="5" rx="2.5" fill="white" />
+                    <rect y="17" width="40" height="5" rx="2.5" fill="white" />
+                    <rect y="27" width="40" height="5" rx="2.5" fill="white" />
+                </svg>
+            </batton>
             <div>
                 <a href="/index.html">
                     <h1 class="header__logo">DB-</h1>
@@ -31,6 +39,34 @@
                 </div>
             </div>
         </nav>
+        <nav class="header__nav-mobile">
+            <ul>
+                <li>
+                    <a class="nav__link--header-mobile" href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/about.html">About</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/services.html">Services</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/Story.html">Story</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/Careers.html">Careers</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/News.html">News</a>
+                </li>
+            </ul>
+        </nav>
 
         <div class="header__wrapper--home">
             <h2 class="title--home">
@@ -40,12 +76,10 @@
                 Our team can build a house according to your wishes. <br> Any design and concept, we will help make it
                 happen
                 <h3>
-                    <form>
-                        <label>
-                            <button class="header__button" type="submit">Contact us</button>
-                            <input class="header__input" type="text" name="text">
-                        </label>
-                    </form>
+                    <header__form>
+                        <button class="header__button" type="submit">Contact us</button>
+                        <input class="header__input" type="text" name="text">
+                        </form>
         </div>
 
     </header>
@@ -58,7 +92,7 @@
 
             <div class="section__our-company">
                 <div class="section__left-box">
-                    <div class="flex-container">
+                    <div class="section__left-box-wrapper">
                         <div class="flex-container flex-column">
                             <img class="left-box__image" src="./images/our company/Rectangle 5.jpg" alt="picture"
                                 width="310" height="241">
@@ -145,7 +179,7 @@
                 </p>
             </div>
 
-            <div class="section__content flex-container space-between">
+            <div class="section__our-services-content section__content ">
                 <div class="section__block">
                     <div class="section__block-item1">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon">
@@ -232,7 +266,7 @@
 
             <div class="section__wrapper-indent">
                 <a href="#">
-                    <h4 class="title-middle title-middle--tablet title-link">
+                    <h4 class="title-middle title-link">
                         Our benefits
                     </h4>
                 </a>
@@ -305,51 +339,6 @@
                 </div>
 
             </div>
-            <div class="section__our-benefits--tablet section__content section__container ">
-                <div class="section__box1">
-                    <div class="item1">
-                        <h4 class="title-small--white">
-                            Flexible time
-                        </h4>
-                    </div>
-                    <div class="item2">
-                        <p class="text-small--white">
-                            We work wherever you ready to builds. Work fast and profesional.Work fast and profesional.We
-                            work wherever you ready
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="section__box2">
-                    <div class="item1">
-                        <h4 class="title-small--white">
-                            Customizable design
-                        </h4>
-                    </div>
-                    <div class="item2">
-                        <p class="text-small--white">
-                            We can design your buildings, but we open if you want to customize your design or
-                            if you have architect
-                        </p>
-                    </div>
-                </div>
-
-                <div class="section__box3">
-                    <div class="item1">
-                        <h4 class="title-small--white">
-                            Negotiable price
-                        </h4>
-                    </div>
-                    <div class="item2">
-                        <p class="text-small--white">
-                            Yes, we're open to negotiate the price with you, and we will give the best price
-                            for our lovely clients
-                        </p>
-                    </div>
-                </div>
-
-            </div>
 
         </section>
 
@@ -370,32 +359,41 @@
             </div>
             <div class="content__our-works">
 
-                <div class="flex-column">
-                    <img class="content__our-works-picture" src="./images/our works/Rectangle 15.jpg" alt="picture">
-                    <img class="content__our-works-picture" src="./images/our works/Rectangle 18.jpg" alt="picture">
-                </div>
-                <div>
-                    <img class="content__our-works-picture" src="./images/our works/Rectangle 16.jpg" alt="picture">
-                </div>
-
-                <div class="flex-column">
-                    <img class="content__our-works-picture" src="./images/our works/Rectangle 14.jpg" alt="picture">
-                    <img class="content__our-works-picture" src="./images/our works/Rectangle 17.jpg" alt="picture">
-                </div>
-
-                <div class="flex-column">
+                <div class="content__our-works-box1">
                     <div class="flex-container">
-                        <img class="content__our-works-picture" src="./images/our works/Rectangle 19.jpg" alt="picture">
-
                         <div class="flex-column">
-                            <img class="content__our-works-picture" src="./images/our works/Rectangle 20.jpg"
+                            <img class="content__our-works-picture" src="./images/our works/Rectangle 15.jpg"
                                 alt="picture">
-                            <img class="content__our-works-picture" src="./images/our works/Rectangle 22.jpg"
+                            <img class="content__our-works-picture" src="./images/our works/Rectangle 18.jpg"
                                 alt="picture">
                         </div>
+                        <img class="content__our-works-picture" src="./images/our works/Rectangle 16.jpg" alt="picture">
                     </div>
-                    <img class="content__our-works-picture" src="./images/our works/Rectangle 21.jpg" alt="picture">
                 </div>
+
+                <div class="content__our-works-box2">
+                    <div class="flex-column">
+                        <img class="content__our-works-picture" src="./images/our works/Rectangle 14.jpg" alt="picture">
+                        <img class="content__our-works-picture" src="./images/our works/Rectangle 17.jpg" alt="picture">
+                    </div>
+                </div>
+                <div class="content__our-works-box3">
+                    <div class="flex-column">
+                        <div class="flex-container">
+                            <img class="content__our-works-picture" src="./images/our works/Rectangle 19.jpg"
+                                alt="picture">
+
+                            <div class="flex-column">
+                                <img class="content__our-works-picture" src="./images/our works/Rectangle 20.jpg"
+                                    alt="picture">
+                                <img class="content__our-works-picture" src="./images/our works/Rectangle 22.jpg"
+                                    alt="picture">
+                            </div>
+                        </div>
+                        <img class="content__our-works-picture" src="./images/our works/Rectangle 21.jpg" alt="picture">
+                    </div>
+                </div>
+
             </div>
             <div class="section__container">
                 <form class="section__form">
@@ -404,7 +402,7 @@
                         <button class="section__button" type="submit">See more</button>
                     </label>
                 </form>
-                <div class="flex-container">
+                <div class="container__reviews-wrapper">
                     <div class="container__reviews">
                         <h4 class="title-middle">
                             What our clients say?
@@ -417,99 +415,7 @@
                         </div>
                     </div>
                     <div class="reviews-image">
-                        <img src="./images/our works/Rectangle 23.jpg" alt="picture">
-
-                    </div>
-                </div>
-                <div class="wrapper">
-                    <div class="section__container-reviews">
-                        <p class="text-small--white-italic">
-                            I really happy to see the result my new <br> home. It’s really good house and good <br>
-                            price too. And they work so fast becasue <br> they have the best team. Once again, <br>
-                            thankyou. I really appreciate it.
-                        </p>
-                        <p class="text-grand--white-italic wrapper-indent-small">
-                            - Mr. Roberto
-                        </p>
-                    </div>
-                    <img class="image-roberto" src="./images/our works/Ellipse6.png" alt="picture">
-                </div>
-            </div>
-        </section>
-        <section class="section__our-works--tablet">
-            <div class="wrapper__our-works">
-                <div class="section__wrapper-indent">
-                    <a href="#">
-                        <h4 class="title-middle title-link">
-                            Our works
-                        </h4>
-                    </a>
-                    <p class="text-small wrapper-indent-small">
-                        Here our some of the best the result when <br> we build some buildings, houses, and also
-                        <br> interior designs
-                    </p>
-                </div>
-            </div>
-            <div class="content__our-works--tablet">
-                <img class="content__our-works-picture--tablet" src="./images/our works/Rectangle 14.jpg" alt="picture">
-                <img class="content__our-works-picture--tablet" src="./images/our works/Rectangle 23.jpg" alt="picture">
-                <img class="content__our-works-picture--tablet" src="./images/our works/Rectangle 21.jpg" alt="picture">
-            </div>
-
-
-            <div class="section__our-works-secondary-block section__container">
-                <form class="section__form">
-                    <label>
-                        <input class="section__input" type="text" name="text">
-                        <button class="section__button" type="submit">See more</button>
-                    </label>
-                </form>
-                <div class="flex-container">
-                    <div class="container__reviews">
-                        <h4 class="title-middle">
-                            What our clients say?
-                        </h4>
-                        <p class="text-small wrapper-indent-small">
-                            See what our clients say <br> about their new home
-                        </p>
-                        <div class="button-link__wrapper">
-                            <a class="button-link" href="#">See more</a>
-                        </div>
-                    </div>
-                    <div class="reviews-image">
-                        <img src="./images/our works/Rectangle 23.jpg" alt="picture">
-
-                    </div>
-                </div>
-                <div class="wrapper">
-                    <div class="section__container-reviews">
-                        <p class="text-small--white-italic">
-                            I really happy to see the result my new <br> home. It’s really good house and good <br>
-                            price too. And they work so fast becasue <br> they have the best team. Once again, <br>
-                            thankyou. I really appreciate it.
-                        </p>
-                        <p class="text-grand--white-italic wrapper-indent-small">
-                            - Mr. Roberto
-                        </p>
-                    </div>
-                    <img class="image-roberto" src="./images/our works/Ellipse6.png" alt="picture">
-                </div>
-            </div>
-            <div class="section__our-works-secondary-block--tablet">
-                <div class="flex-container">
-                    <div class="container__reviews">
-                        <h4 class="title-middle">
-                            What our clients say?
-                        </h4>
-                        <p class="text-small wrapper-indent-small">
-                            See what our clients say <br> about their new home
-                        </p>
-                        <div class="button-link__wrapper">
-                            <a class="button-link" href="#">See more</a>
-                        </div>
-                    </div>
-                    <div class="reviews-image">
-                        <img src="./images/our works/Rectangle 23.jpg" alt="picture" width="500px" height="300px">
+                        <img class="reviews-image-img" src="./images/our works/Rectangle 23.jpg" alt="picture">
 
                     </div>
                 </div>
@@ -529,7 +435,8 @@
             </div>
         </section>
 
-        <section class="section__container">
+
+        <section class="section__our-partners section__container">
             <nav class="section__nav  flex-container space-between">
                 <a href="#">
                     <h4 class="title-middle title-link">
@@ -549,19 +456,14 @@
                     <img class="nav__image" src="./images/Our Partners/DZIKRA.png" alt="picture">
                 </a>
             </nav>
-            <div class="section__video">
-                <video src="./images/Our Partners/video.mp4" max-width="1080px" height="512px" controls muted
+            <div class="section__video-content">
+                <video class="section__video" src="./images/Our Partners/video.mp4" controls muted
                     poster="./images/Our Partners/preview.jpg"></video>
                 <div class="section__video-post">
                     <p class="text-small--white">
                         This is the timelapse video that <br> shows how our teams work
                     </p>
                 </div>
-            </div>
-            <div class="section__video--tablet">
-                <video src="./images/Our Partners/video.mp4" width="768px" height="512px" controls muted
-                    poster="./images/Our Partners/preview.jpg">
-                </video>
             </div>
         </section>
 
@@ -583,6 +485,7 @@
                 </div>
             </form>
         </section>
+
 
     </main>
     <footer class="footer">
@@ -722,8 +625,11 @@
 
         </div>
     </footer>
+    <div class="overlay"></div>
+
     <script src="/js/background-home.js"></script>
     <script src="/js/index.js"></script>
+    <script src="/js/hamburger.js"></script>
 
 </body>
 

@@ -24,6 +24,35 @@
     padding-top: 30px;
 }
 
+.header__hamburger{
+    display: block;
+}
+
+.header__nav-mobile{
+   padding-top: 50px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-150px);
+    background: var(--light-blue);
+    width: 150px;
+    text-align: center;
+    z-index: 101;
+    transition: transform 0.8s;
+}
+
+.header__nav-mobile--active{
+    transform: translateX(0);
+}
+
+
+.nav__link--header-mobile{
+    color: var(--white);
+    font-size: 25px;
+    line-height: 50px;
+    
+}
+
 a{
     text-decoration: none;
 }
@@ -71,7 +100,9 @@ a{
 .header__nav-menu{
     padding: 29px 70px 28px 8px;
 }
-
+.header__humburger{
+    display: none;
+}
 
 .header__logo {
     font-family: 'Roboto';
@@ -122,6 +153,8 @@ a{
     text-align: center;
 }
 
+
+
 .header__button{
     display: inline-block;
     text-decoration: none;
@@ -143,7 +176,8 @@ transform: scale(1.1);
     border-left: none;
     border-right: none;
     border-bottom: 3px solid var(--light-blue);
-    width: 319.5px;
+    width: 100%;
+    max-width: 319.5px;
     outline:none;
 }
 
