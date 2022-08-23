@@ -1,10 +1,20 @@
-.swiper {
+.swiper-1 {
     width: 1300px;
     height: 373px;
     cursor: pointer;
 }
 
 .swiper-2{
+   width: 1300px;
+    height: 300px;
+    cursor: pointer;
+}
+.swiper-3{
+   width: 1300px;
+    height: 300px;
+    cursor: pointer;
+}
+.swiper-4{
    width: 1300px;
     height: 300px;
     cursor: pointer;
@@ -50,26 +60,18 @@
 
 
 
-.section__MrJames{
+.person{
     display: none;
 }
-.section__MrAhmed{
+.person{
     display: none;
 }
-.section__MrMarco{
+.person{
     display: none;
-}
-.section__MrJames--active{
-    display: block;
-}
-.section__MrAhmed--active{
-    display: block;
-}
-.section__MrMarco--active{
-    display: block;
 }
 
+
 .section__your-story--active{
-display: none;
+display: block;
 }
 

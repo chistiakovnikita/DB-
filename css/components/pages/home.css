@@ -1,5 +1,4 @@
-
-.section__left-box-wrapper{
+.section__left-box-wrapper {
     display: flex;
 }
 
@@ -70,8 +69,7 @@
 
 /* Our services*/
 
-
-.section__our-services-content{
+.section__our-services-content {
     display: flex;
     justify-content: space-between;
 }
@@ -194,7 +192,7 @@
 
 .section__our-works {
     height: 1414px;
-    background: url(../../../images/our\ works/bg.jpg);
+    background: url(../../../images/our_works/bg.jpg);
     background-size: cover;
 }
 .section__our-works--tablet {
@@ -218,6 +216,7 @@
 .content__our-works-picture {
     padding: 10px;
     transition: 0.3s linear;
+    display: inline-block;
 }
 
 .content__our-works-picture:hover {
@@ -254,7 +253,7 @@
     transform: scale(1.1);
 }
 
-.container__reviews-wrapper{
+.container__reviews-wrapper {
     display: flex;
 }
 
@@ -282,7 +281,8 @@
     top: -213px;
     right: 5px;
     padding: 59px 24px 29px 50px;
-    width: 416px;
+    width: 100%;
+    max-width: 416px;
     height: 266px;
     background: var(--blue);
 }
@@ -330,7 +330,7 @@
     padding: 32px 67px 39px 53px;
     background: var(--blue);
 }
-.section__video-post--active{
+.section__video-post--active {
     display: none;
 }
 
@@ -380,24 +380,57 @@
 }
 @media screen and (max-width: 1350px) {
     .content__our-works {
-        width: auto;
-    }
-    .content__our-works-box3 {
-        display: none;
+        max-width: 1015px;
     }
 }
+@media screen and (max-width: 1060px) {
+    .content__our-works {
+        max-width: 788px;
+    }
+    .reviews-image{
+        display: none;
+    }
+    .container__reviews-wrapper{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .container__reviews {
+        padding: 51px 110px 50px 110px;
+        
+    }
+    
+    .section__container-reviews{
+        max-width: 690px;
+        position: static;
+        margin: 0 auto;
+        padding: 40px;
+        text-align: center;
+}
+.image-roberto{
+    display: none;
+}
+.section__container-reviews .text-small--white-italic{
+    font-size: 25px;
 
+}
+}
 @media screen and (max-width: 900px) {
-
     .section__left-box {
-       
-      margin: 0 auto;
+        margin: 0 auto;
+        margin-top: 60px;
     }
 
     .section__our-company {
         display: flex;
-        flex-wrap: wrap;
-        display: block;
+        flex-wrap: wrap-reverse;
+    }
+
+    .section__right-box {
+        margin: 0 auto;
+    }
+    .section__right-box .button-link__wrapper {
+        text-align: center;
     }
     .section__our-benefits {
         display: block;
@@ -441,28 +474,34 @@
         text-align: center;
     }
 
-    .section__our-services-content{
+    .section__our-services-content {
         display: block;
     }
 
     .section__block {
-        margin: 20px auto 20px auto ;
+        margin: 20px auto 20px auto;
         width: 100%;
         max-width: 702px;
         height: 240px;
         text-align: center;
         background: var(--light-blue);
+    }
+}
+@media screen and (max-width: 800px) {
+    .content__our-works{
+       text-align: center;
+       max-width: 520px;
+    }
+    .content__our-works-box3 {
+        display: none;
+    }
+    
+}
 
-}
-}
 @media screen and (max-width: 768px) {
     .section__container {
         width: 100%;
         max-width: 768px;
-    }
-
-    .section__left-box {
-        margin-left: 45px;
     }
 
     .button-link__wrapper {
@@ -472,19 +511,8 @@
         transform: none;
     }
 
-    
     .wrapper__our-benefits {
         margin-bottom: 30px;
-    }
-
-    .content__our-works-box3 {
-        display: none;
-    }
-    .content__our-works-box1 {
-        display: none;
-    }
-    .content__our-works-box2 {
-        text-align: center;
     }
 
     .section__form {
@@ -540,43 +568,134 @@
 }
 
 @media screen and (max-width: 700px) {
-
-    .section__left-box{
-     margin: 0;
-    }
-    .left-box__image-circle, .left-box__text, #ok{
+    .left-box__image-circle,
+    .left-box__text,
+    #ok {
         display: none;
     }
 
-    .section__left-box-wrapper{
-       
+    .container__reviews-wrapper {
         display: block;
         flex-wrap: wrap;
     }
-    .left-box__image{
-        margin: 20px auto;
-        width: 100%;
-       max-width: 500px;
-       height: 250px;
-      
-    }
-    .container__reviews-wrapper{
-        display: block;
-        flex-wrap: wrap;
-    }
-    .container__reviews{
+    .container__reviews {
         text-align: center;
     }
 
-    .section__our-partners{
+    .section__our-partners {
         margin-top: 300px;
     }
 }
-
-@media screen and (max-width:500px) {
-
-.header__humburger{
-    display: block;
+@media screen and (max-width: 600px) {
+    br{
+        display: none;
+    }
 }
 
+@media screen and (max-width: 550px) {
+    .content__our-works{
+        text-align: center;
+        max-width: 520px;
+     }
+     .content__our-works-box1 {
+         display: none;
+     }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .section__block-item1,
+    .section__block-item2,
+    .section__block-item3 {
+        padding: 27px 0 0 0;
+    }
+
+    .image-roberto,
+    .reviews-image-img {
+        display: none;
+    }
+    .section__container-reviews {
+        position: static;
+        margin: 0 auto;
+    }
+    .section__form {
+        margin-bottom: 50px;
+    }
+    .title-middle {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .nav__image {
+        max-width: 72px;
+        height: 26px;
+    }
+    .footer,
+    .section__our-partners,
+    .section__our-news,
+    .section__wrapper {
+        margin-top: 40px;
+    }
+    .section__container-reviews .text-small--white-italic{
+        font-size: 20px;
+}
+.container__reviews {
+    padding: 51px 0px 50px 0px;
+}
+}
+@media screen and (max-width: 420px) {
+    .text-small--white-italic {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .section__container-reviews {
+        padding: 14px 24px 29px 50px;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    br {
+        display: none;
+    }
+
+    .form__input {
+        width: 180px;
+    }
+    .form__button {
+        width: 99px;
+        height: 62px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title-middle {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .nav__image {
+        max-width: 102px;
+        height: 21px;
+    }
+    .section__nav {
+        margin: 0;
+    }
+    .section__video-content {
+        margin: 20px 0 0 0;
+    }
+    .container__reviews {
+        height: 250px;
+    }
+
+    .section__block-item1,
+    .section__block-item2,
+    .section__block-item3 {
+        padding: 10px 3px 0 3px;
+        text-align: center;
+    }
+    .section__our-works{
+        height: 1255px;
+    }
 }

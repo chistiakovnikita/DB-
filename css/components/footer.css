@@ -10,12 +10,11 @@
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-  
 }
 
 .footer__logo {
     padding-top: 60px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 700;
     font-size: 66px;
     line-height: 77px;
@@ -27,16 +26,14 @@
     color: var(--light-blue);
 }
 
-
 address {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--white);
     padding: 16px 0 54px 0;
 }
-
 
 .nav__menu-title {
     padding: 78px 0 32px 0;
@@ -48,7 +45,7 @@ address {
 }
 
 .nav__menu-item {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -57,7 +54,6 @@ address {
     transition: color 0.3s linear;
     padding-top: 16px;
 }
-
 
 .nav__menu-title:hover {
     color: var(--light-blue);
@@ -71,7 +67,7 @@ address {
     background: #fff;
     text-align: center;
     padding-top: 32px;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 400;
     font-size: 16px;
     line-height: 27.2px;
@@ -79,7 +75,43 @@ address {
 }
 
 @media screen and (max-width: 768px) {
-    .footer__nav{
+    .footer__nav {
+        width: 100%;
         max-width: 735px;
     }
+}
+
+@media screen and (max-width: 700px) {
+    .footer__nav-block {
+        display: none;
+    }
+    .flex-container {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        grid-template-rows: 198px 90px;
+        height: 280px;
+    }
+
+    .nav__menu-title {
+        font-size: 18px;
+        padding: 24px 0 12px 0;
+    }
+    .nav__menu-item {
+        font-size: 13px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer,
+    .section__our-partners,
+    .section__our-news,
+    .section__wrapper {
+        margin-top: 40px;
+    }
+   
 }

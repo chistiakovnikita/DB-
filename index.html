@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="./images/favicon-house.png">
+
     <title>DB-</title>
 </head>
 
 <body>
-
     <header class="header--home">
         <nav class="header__nav">
-
             <batton class="header__hamburger" type="button">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="7" width="40" height="5" rx="2.5" fill="white" />
@@ -75,11 +75,11 @@
             <h3 class="header__subtitle">
                 Our team can build a house according to your wishes. <br> Any design and concept, we will help make it
                 happen
-                <h3>
-                    <header__form>
-                        <button class="header__button" type="submit">Contact us</button>
-                        <input class="header__input" type="text" name="text">
-                        </form>
+            </h3>
+            <form>
+                <button class="header__button" type="submit">Contact us</button>
+                <input class="header__input" type="text" name="text">
+            </form>
         </div>
 
     </header>
@@ -94,18 +94,38 @@
                 <div class="section__left-box">
                     <div class="section__left-box-wrapper">
                         <div class="flex-container flex-column">
-                            <img class="left-box__image" src="./images/our company/Rectangle 5.jpg" alt="picture"
-                                width="310" height="241">
-                            <img class="left-box__image" src="./images/our company/Rectangle 6.jpg" alt="picture"
-                                width="310" height="158">
+                            <picture class="left-box__image">
+                                <source media="(max-width: 410px)" srcset="images/our_company/Rectangle_5_410.jpg" />
+                                <source media="(max-width: 520px)" srcset="images/our_company/Rectangle_5_520.jpg" />
+                                <source media="(max-width: 700px)" srcset="/images/our_company/Rectangle_5_700.jpg" />
+                                <source media="(max-width: 1440px)" srcset="/images/our_company/Rectangle_5.jpg">
+                                <img src='/images/our_company/Rectangle_5.jpg' alt='picture' />
+                            </picture>
+                            <picture class="left-box__image">
+                                <source media="(max-width: 410px)" srcset="/images/our_company/Rectangle_6_410.jpg" />
+                                <source media="(max-width: 520px)" srcset="/images/our_company/Rectangle_6_520.jpg" />
+                                <source media="(max-width: 700px)" srcset="/images/our_company/Rectangle_6_700.jpg" />
+                                <source media="(max-width: 1440px)" srcset="/images/our_company/Rectangle_6.jpg" />
+                                <img src='/images/our_company/Rectangle_6.jpg' alt='picture' />
+                            </picture>
                         </div>
                         <div class="flex-container flex-column">
-                            <img class="left-box__image" src="./images/our company/Rectangle 8.jpg" alt="picture"
-                                width="310" height="158">
-                            <img class="left-box__image" src="./images/our company/Rectangle 7.jpg" alt="picture"
-                                width="310" height="241">
+                            <picture class="left-box__image">
+                                <source media="(max-width: 410px)" srcset="/images/our_company/Rectangle_8_410.jpg" />
+                                <source media="(max-width: 520px)" srcset="/images/our_company/Rectangle_8_520.jpg" />
+                                <source media="(max-width: 700px)" srcset="/images/our_company/Rectangle_8_700.jpg" />
+                                <source media="(max-width: 1440px)" srcset="/images/our_company/Rectangle_8.jpg">
+                                <img src='/images/our_company/Rectangle_8.jpg' alt='picture' />
+                            </picture>
+                            <picture class="left-box__image">
+                                <source media="(max-width: 410px)" srcset="/images/our_company/Rectangle_7_410.jpg" />
+                                <source media="(max-width: 520px)" srcset="/images/our_company/Rectangle_7_520.jpg" />
+                                <source media="(max-width: 700px)" srcset="/images/our_company/Rectangle_7_700.jpg" />
+                                <source media="(max-width: 1440px)" srcset="/images/our_company/Rectangle_7.jpg">
+                                <img src='/images/our_company/Rectangle_7.jpg' alt='picture' />
+                            </picture>
                         </div>
-                        <img class="left-box__image-circle" src="./images/our company/circle.png" alt="picture">
+                        <img class="left-box__image-circle" src="./images/our_company/circle.png" alt="picture">
                         <p class="left-box__text">Pro licensed</p>
                         <svg id="ok" width="78" height="60" viewBox="0 0 78 60" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +136,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="section__right-box">
                     <div>
                         <div class="section__our-company-title">
                             <a href="#">
@@ -362,45 +382,96 @@
                 <div class="content__our-works-box1">
                     <div class="flex-container">
                         <div class="flex-column">
-                            <img class="content__our-works-picture" src="./images/our works/Rectangle 15.jpg"
-                                alt="picture">
-                            <img class="content__our-works-picture" src="./images/our works/Rectangle 18.jpg"
-                                alt="picture">
+                            <picture class="content__our-works-picture">
+                                <source media="(max-width: 1060px)" srcset="/images/our_works/Rectangle_15_1060.jpg" />
+                                <source media="(max-width: 1350px)" srcset="/images/our_works/Rectangle_15_1350.jpg" />
+                                <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_15.jpg">
+                                <img src='./images/our_works/Rectangle_15.jpg' alt='picture' />
+                            </picture>
+                            <picture class="content__our-works-picture">
+                                <source media="(max-width: 1060px)" srcset="/images/our_works/Rectangle_18_1060.jpg" />
+                                <source media="(max-width: 1350px)" srcset="./images/our_works/Rectangle_18_1350.jpg" />
+                                <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_18.jpg">
+                                <img src='./images/our_works/Rectangle_18.jpg' alt='picture' />
+                            </picture>
                         </div>
-                        <img class="content__our-works-picture" src="./images/our works/Rectangle 16.jpg" alt="picture">
+                        <picture class="content__our-works-picture">
+                            <source media="(max-width: 1060px)" srcset="./images/our_works/Rectangle_16_1060.jpg" />
+                            <source media="(max-width: 1350px)" srcset="./images/our_works/Rectangle_16_1350.jpg"/>
+                            <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_16.jpg">
+                            <img src='./images/our_works/Rectangle_16.jpg' alt='picture' />
+                        </picture>
                     </div>
                 </div>
 
                 <div class="content__our-works-box2">
                     <div class="flex-column">
-                        <img class="content__our-works-picture" src="./images/our works/Rectangle 14.jpg" alt="picture">
-                        <img class="content__our-works-picture" src="./images/our works/Rectangle 17.jpg" alt="picture">
+                        <picture class="content__our-works-picture">
+                            <source media="(max-width: 455px)" srcset="./images/our_works/Rectangle_14_1060.jpg" />
+                            <source media="(max-width: 550px)" srcset="./images/our_works/Rectangle_14.jpg" />
+                            <source media="(max-width: 1060px)" srcset="./images/our_works/Rectangle_14_1060.jpg" />
+                            <source media="(max-width: 1350px)" srcset="./images/our_works/Rectangle_14_1350.jpg" />
+                            <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_14.jpg">
+                            <img src='./images/our_works/Rectangle_14.jpg' alt='picture' />
+                        </picture>
+                        <picture class="content__our-works-picture">
+                            <source media="(max-width: 455px)" srcset="./images/our_works/Rectangle_17_1060.jpg" />
+                            <source media="(max-width: 550px)" srcset="./images/our_works/Rectangle_17.jpg" />
+                            <source media="(max-width: 1060px)" srcset="/images/our_works/Rectangle_17_1060.jpg" />
+                            <source media="(max-width: 1350px)" srcset="./images/our_works/Rectangle_17_1350.jpg" />
+                            <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_17.jpg">
+                            <img src='./images/our_works/Rectangle_17.jpg' alt='picture' />
+                        </picture>
                     </div>
                 </div>
                 <div class="content__our-works-box3">
                     <div class="flex-column">
                         <div class="flex-container">
-                            <img class="content__our-works-picture" src="./images/our works/Rectangle 19.jpg"
-                                alt="picture">
+                            <picture class="content__our-works-picture">
+                                <source media="(max-width: 365px)" srcset="./images/our_works/Rectangle_19_1350.jpg" />
+                                <source media="(max-width: 1060px)" srcset="./images/our_works/Rectangle_19_1060.jpg" />
+                                <source media="(max-width: 1350px)" srcset="./images/our_works/Rectangle_19_1350.jpg">
+                                <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_19.jpg">
+                                <img src='./images/our_works/Rectangle_19.jpg' alt='picture' />
+                            </picture>
 
                             <div class="flex-column">
-                                <img class="content__our-works-picture" src="./images/our works/Rectangle 20.jpg"
-                                    alt="picture">
-                                <img class="content__our-works-picture" src="./images/our works/Rectangle 22.jpg"
-                                    alt="picture">
+                                <picture class="content__our-works-picture">
+                                    <source media="(max-width: 365px)"
+                                        srcset="./images/our_works/Rectangle_20_1350.jpg" />
+                                    <source media="(max-width: 1060px)"
+                                        srcset="./images/our_works/Rectangle_20_1060.jpg" />
+                                    <source media="(max-width: 1350px)"
+                                        srcset="./images/our_works/Rectangle_20_1350.jpg" />
+                                    <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_20.jpg">
+                                    <img src='./images/our_works/Rectangle_20.jpg' alt='picture' />
+                                </picture>
+                                <picture class="content__our-works-picture">
+                                    <source media="(max-width: 1060px)"
+                                        srcset="./images/our_works/Rectangle_22_1060.jpg" />
+                                    <source media="(max-width: 1350px)"
+                                        srcset="./images/our_works/Rectangle_22_1350.jpg" />
+                                    <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_22.jpg">
+                                    <img src='./images/our_works/Rectangle_22.jpg' alt='picture' />
+                                </picture>
                             </div>
                         </div>
-                        <img class="content__our-works-picture" src="./images/our works/Rectangle 21.jpg" alt="picture">
+                        <picture class="content__our-works-picture">
+                            <source media="(max-width: 1060px)" srcset="./images/our_works/Rectangle_21_1060.jpg" />
+                            <source media="(max-width: 1350px)" srcset="./images/our_works/Rectangle_21_1350.jpg"/>
+                            <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_21.jpg">
+                            <img src='./images/our_works/Rectangle_21.jpg' alt='picture' />
+                        </picture>
+
                     </div>
+
                 </div>
 
             </div>
             <div class="section__container">
                 <form class="section__form">
-                    <label>
-                        <input class="section__input" type="text" name="text">
-                        <button class="section__button" type="submit">See more</button>
-                    </label>
+                    <input class="section__input" type="text" name="text">
+                    <button class="section__button" type="submit">See more</button>
                 </form>
                 <div class="container__reviews-wrapper">
                     <div class="container__reviews">
@@ -415,7 +486,12 @@
                         </div>
                     </div>
                     <div class="reviews-image">
-                        <img class="reviews-image-img" src="./images/our works/Rectangle 23.jpg" alt="picture">
+
+                        <picture class="reviews-image-img">
+                            <source media="(max-width: 1300px)" srcset="./images/our_works/Rectangle_23_1300.jpg" />
+                            <source media="(max-width: 1440px)" srcset="./images/our_works/Rectangle_23.jpg">
+                            <img src='./images/our_works/Rectangle_23.jpg' alt='picture' />
+                        </picture>
 
                     </div>
                 </div>
@@ -430,7 +506,7 @@
                             - Mr. Roberto
                         </p>
                     </div>
-                    <img class="image-roberto" src="./images/our works/Ellipse6.png" alt="picture">
+                    <img class="image-roberto" src="./images/our_works/Ellipse6.png" alt="picture">
                 </div>
             </div>
         </section>
@@ -490,12 +566,10 @@
     </main>
     <footer class="footer">
         <nav class="footer__nav flex-container space-between">
-            <div>
+            <div class="footer__nav-block">
                 <a href="#">
                     <h1 class="footer__logo">DB-</h1>
                 </a>
-
-
                 <address>
                     Lizenzo street number 12 Jakarta, <br> Indonesia
                 </address>

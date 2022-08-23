@@ -6,12 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="./images/favicon-house.png">
+    <meta name="description" content="we build houses and decorate the interior">
+    <meta name="keywords" content="building, interior, best building company 2022">
     <title>DB-</title>
 </head>
 
 <body>
     <header class="header">
         <nav class="header__nav">
+            <batton class="header__hamburger" type="button">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" width="40" height="5" rx="2.5" fill="white" />
+                    <rect y="17" width="40" height="5" rx="2.5" fill="white" />
+                    <rect y="27" width="40" height="5" rx="2.5" fill="white" />
+                </svg>
+            </batton>
             <div>
                 <a href="/index.html">
                     <h1 class="header__logo">DB-</h1>
@@ -30,6 +40,34 @@
                 </div>
             </div>
         </nav>
+        <nav class="header__nav-mobile">
+            <ul>
+                <li>
+                    <a class="nav__link--header-mobile" href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/about.html">About</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/services.html">Services</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/Story.html">Story</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/Careers.html">Careers</a>
+                </li>
+                <li>
+                    <a class="nav__link--header-mobile" href="/News.html">News</a>
+                </li>
+            </ul>
+        </nav>
         <div class="header__wrapper">
             <h2 class="title">
                 About our story - We are <br> the best team
@@ -37,40 +75,46 @@
         </div>
     </header>
 
-<main>
-    <section>
-        <div class="section__container flex-container space-between">
-            <div class="wrapper">
-                <img src="/images/page_About/section/about_1.jpg" alt="picture">
-                <div class="section__image--about">
-                    <img src="/images/page_About/section/about_2.jpg" alt="picture">
+    <main>
+        <section>
+            <div class="section__container section__first-post">
+                <div class="wrapper">
+                    <picture>
+                        <source media="(max-width: 365px)" srcset="/images/page_About/section/about_1_320.jpg" />
+                        <source media="(max-width: 480px)" srcset="/images/page_About/section/about_1_480.jpg" />
+                        <source media="(max-width: 630px)" srcset="/images/page_About/section/about_1_630.jpg" />
+                        <source media="(max-width: 1440px)" srcset="/images/page_About/section/about_1.jpg">
+                        <img src='/images/page_About/section/about_1.jpg' alt='picture' />
+                    </picture>
+                    <div class="section__image--about">
+                        <img src="/images/page_About/section/about_2.jpg" alt="picture">
+                    </div>
                 </div>
 
+                <div>
+                    <h4 class="title-middle ">
+                        Here were the story begins
+                    </h4>
+
+                    <p class="text-small wrapper-indent-small">
+                        Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
+                        industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley
+                        of
+                        <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
+                        centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
+                    </p>
+
+                    <p class="text-small wrapper-indent-middle">
+                        Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
+                        industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley
+                        of
+                        <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
+                        centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <h4 class="title-middle ">
-                    Here were the story begins
-                </h4>
-
-                <p class="text-small wrapper-indent-small">
-                    Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
-                    industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of
-                    <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
-                    centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
-                </p>
-
-                <p class="text-small wrapper-indent-middle">
-                    Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
-                    industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of
-                    <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
-                    centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
-                </p>
-            </div>
-        </div>
-
-        <div class="section__secondary-post">
-            <div class="section__container  flex-container space-between">
+            <div class="section__secondary-post section__container">
                 <div class="section-secondary-post__left-block">
                     <h4 class="title-middle--white inline-block wrapper-indent-grand">
                         We love to make perfect
@@ -80,157 +124,168 @@
                     </h4>
                     <p class="text-small--white wrapper-indent-small">
                         Is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
-                        industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a galley of
+                        industry's standard dummy text <br> ever since the 1500s, when an unknown printer took a
+                        galley of
                         <br> type and scrambled it to make a type specimen book. It has <br> survived not only five
-                        centuries, but also the leap into electronic <br> typesetting, remaining essentially unchanged.
+                        centuries, but also the leap into electronic <br> typesetting, remaining essentially
+                        unchanged.
                     </p>
                 </div>
-                <img class="section-secondary-post__image" src="/images/page_About/section/about_3.jpg" alt="picture">
+                <picture>
+                    <source media="(max-width: 365px)" srcset="/images/page_About/section/about_3_320.jpg" />
+                    <source media="(max-width: 480px)" srcset="/images/page_About/section/about_3_480.jpg" />
+                    <source media="(max-width: 630px)" srcset="/images/page_About/section/about_3_630.jpg" />
+                    <source media="(max-width: 1440px)" srcset="/images/page_About/section/about_3.jpg">
+                    <img src='/images/page_About/section/about_3.jpg' alt='picture' />
+                </picture>
+
             </div>
-            
-        </div>
 
-    </section>
-   
-</main>
-<footer class="footer">
-    <nav class="footer__nav flex-container space-between">
-        <div>
-            <a href="#">
-                <h1 class="footer__logo">DB-</h1>
-            </a>
+        </section>
 
-
-            <address>
-                Lizenzo street number 12 Jakarta, <br> Indonesia
-            </address>
-
-            <a class="button-link" href="#">See more</a>
-        </div>
-        <div class="nav__menu-block">
-            <ul>
+    </main>
+    <footer class="footer">
+        <nav class="footer__nav flex-container space-between">
+            <div class="footer__nav-block">
                 <a href="#">
-                    <li class="nav__menu-title nav__menu-link">
-                        Menu
-                    </li>
+                    <h1 class="footer__logo">DB-</h1>
                 </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Home
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        About
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Gallery
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Service
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <div class="nav__menu-block">
-            <ul>
-                <a href="#">
-                    <li class="nav__menu-title nav__menu-link">
-                        Contact
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        E-mail
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Mobile
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Whatsapp
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Fax
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <div class="nav__menu-block">
-            <ul>
-                <a href="#">
-                    <li class="nav__menu-title nav__menu-link">
-                        Career
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Job
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Part-time
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Internship
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Service
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <div class="nav__menu-block">
-            <ul>
-                <a href="#">
-                    <li class="nav__menu-title nav__menu-link">
-                        Business
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Affiliate
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Collaboration
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        Investment
-                    </li>
-                </a>
-                <a class="nav__menu-link" href="#">
-                    <li class="nav__menu-item">
-                        People
-                    </li>
-                </a>
-            </ul>
-        </div>
-    </nav>
+                <address>
+                    Lizenzo street number 12 Jakarta, <br> Indonesia
+                </address>
 
-    <div class="footer__copyright">
-        <time datetime="2021">2021-Copyright ZHB Studio</time>
+                <a class="button-link" href="#">See more</a>
+            </div>
+            <div class="nav__menu-block">
+                <ul>
+                    <a href="#">
+                        <li class="nav__menu-title nav__menu-link">
+                            Menu
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Home
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            About
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Gallery
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Service
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="nav__menu-block">
+                <ul>
+                    <a href="#">
+                        <li class="nav__menu-title nav__menu-link">
+                            Contact
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            E-mail
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Mobile
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Whatsapp
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Fax
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="nav__menu-block">
+                <ul>
+                    <a href="#">
+                        <li class="nav__menu-title nav__menu-link">
+                            Career
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Job
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Part-time
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Internship
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Service
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <div class="nav__menu-block">
+                <ul>
+                    <a href="#">
+                        <li class="nav__menu-title nav__menu-link">
+                            Business
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Affiliate
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Collaboration
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            Investment
+                        </li>
+                    </a>
+                    <a class="nav__menu-link" href="#">
+                        <li class="nav__menu-item">
+                            People
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
 
-    </div>
-</footer>
-<script src="/js/background.js"></script>
+        <div class="footer__copyright">
+            <time datetime="2021">2021-Copyright ZHB Studio</time>
+
+        </div>
+    </footer>
+    <div class="overlay"></div>
+    <script src="/js/background.js"></script>
+    <script src="/js/hamburger.js"></script>
+
+
+
+
 </body>
 
 </html>
