@@ -10,6 +10,7 @@ swiper.addEventListener('click', (evt) => {
             currentElement.classList.add('section__your-story--active')
         } else{
             currentElement.classList.remove('section__your-story--active')
+            
         }
     }
 

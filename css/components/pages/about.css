@@ -33,6 +33,12 @@
 }
 
 @media screen and (max-width:1170px) {
+    .section__first-post br{
+        display: none; 
+    }
+    .section__secondary-post br{
+        display: none; 
+    }
 
     .section__first-post{
       display: flex;
@@ -101,7 +107,7 @@
 @media screen and (max-width:320px) {
     .section__secondary-post{
         margin-top: 37px;
-        margin-bottom:220px;
+        margin-bottom:170px;
 }
 .header{
     margin-bottom: 40px;

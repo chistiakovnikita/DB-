@@ -49,7 +49,6 @@
     padding: 19px 0 0 22px;
 }
 
-
 .swiper-slide__wrapper:hover .text-small--italic{
     color: var(--white);
     
@@ -59,17 +58,17 @@
 }
 
 
-
-.person{
-    display: none;
-}
-.person{
-    display: none;
-}
 .person{
     display: none;
 }
 
+.person{
+    display: none;
+}
+
+.person{
+    display: none;
+}
 
 .section__your-story--active{
 display: block;

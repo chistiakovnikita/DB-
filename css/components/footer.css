@@ -35,16 +35,18 @@ address {
     padding: 16px 0 54px 0;
 }
 
-.nav__menu-title {
+.nav-menu__title {
     padding: 78px 0 32px 0;
+}
+
+.nav-menu__title-link {
     font-weight: 700;
     font-size: 24px;
     color: var(--white);
     line-height: 24px;
     transition: color 0.3s linear;
 }
-
-.nav__menu-item {
+.nav-menu__item-link {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -55,11 +57,14 @@ address {
     padding-top: 16px;
 }
 
-.nav__menu-title:hover {
+.nav-menu__title-link:hover {
     color: var(--light-blue);
 }
+.nav-menu__item {
+    padding-top: 16px;
+}
 
-.nav__menu-item:hover {
+.nav-menu__item-link:hover {
     color: var(--light-blue);
 }
 
@@ -82,29 +87,33 @@ address {
 }
 
 @media screen and (max-width: 700px) {
-    .footer__nav-block {
+    .footer {
+        grid-template-rows: 198px 90px;
+        height: 280px;
+    }
+    .footer-nav__block {
         display: none;
     }
     .flex-container {
         justify-content: space-around;
     }
+    .nav-menu__title {
+        padding: 10px 0 8px 0;
+    }
+    .nav-menu__item {
+        padding-top: 12px;
+    }
 }
 
-@media screen and (max-width: 700px) {
-    .footer {
-        grid-template-rows: 198px 90px;
-        height: 280px;
+@media screen and (max-width: 430px) {
+    .nav-menu__title-link{
+        font-size: 16px;
     }
-
-    .nav__menu-title {
-        font-size: 18px;
-        padding: 24px 0 12px 0;
-    }
-    .nav__menu-item {
+    .nav-menu__item-link{
         font-size: 13px;
-        line-height: 12px;
     }
 }
+
 
 @media screen and (max-width: 320px) {
     .footer,
@@ -113,5 +122,4 @@ address {
     .section__wrapper {
         margin-top: 40px;
     }
-   
 }
